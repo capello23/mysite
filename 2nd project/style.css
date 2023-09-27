@@ -1,0 +1,150 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+.first-page {
+    background-color: #96B6C5;
+    padding-bottom: 15px;
+    
+}
+.second-page {
+    background-color: #ADC4CE;
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    padding: 25px;
+    height: 100%;
+    
+}
+.fourth-page{
+    background-color: #F1F0E8;
+    padding: 25px;
+}
+.floater {
+    background-color: #96B6C5;
+}
+.intro {
+    text-align: center;
+}
+
+.f1 {
+display: flex;
+height: 500px;
+width: 800px;
+align-items: center;
+justify-content: center;
+margin: auto;
+padding-top: 50px;
+}
+
+.description {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    }
+    
+
+.mypic {
+    margin-bottom: 25px;
+    border-radius: 50%;
+    width: 200px;
+    }
+.container {
+    background-color: #EEE0C9;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    row-gap: 30px;
+    column-gap: 200px;
+    padding: 50px;
+    
+}
+.office {
+    height: 200px;
+    width: 300px;
+    border-radius:10%;
+    
+}
+.cat-cooking{
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+}
+.write-me {
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-style: italic;
+    color: #ADC4CE;
+    padding-top: 40px;
+}
+.text-me {
+    text-align: center;
+    margin: auto;
+    color: #96B6C5;
+    padding-top: 40px;
+}
+.quote {
+    text-align: center;
+    color: #96B6C5;
+    margin: 40px auto 60px;
+    width: 30%;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 60px;
+    padding-bottom: 25px;
+    
+}
+.btn {
+    display: flex;
+    background-color: #96B6C5;
+    color: #F1F0E8;
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-decoration: none;
+    
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    row-gap: 25px;
+    
+}
+
+.mylinks {
+
+text-decoration: none;
+margin: auto 10px;
+color: #F1F0E8;
+}
+
+.copyright {
+    display: inline;
+    color: #EEE0C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.dots {
+    border: dotted #96B6C5 5px;
+    border-bottom: none;
+    width: 15%;
+    margin: 100px auto;
+}
+
+    
+
